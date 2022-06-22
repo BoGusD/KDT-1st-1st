@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <Style>
+    .parent{
+      width: 200px;
+      height: 200px;
+      background-color: royalblue;
+      overflow-x: visible;
+      overflow-y: hidden;
+    }
+    .parent1{
+      width: 200px;
+      height: 200px;
+      background-color: royalblue;
+      overflow-x: hidden;
+      overflow-y: visible;
+    }
+    .parent2{
+      width: 200px;
+      height: 200px;
+      background-color: royalblue;
+      overflow-x: scroll;
+      overflow-y: scroll;
+    }
+    .parent3{
+      width: 200px;
+      height: 200px;
+      background-color: royalblue;
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+    .child{
+      width: 400px;
+      height: 100px;
+      background-color: orange; 
+    }
+    .child1{
+      width: 400px;
+      height: 100px;
+      background-color: orange; 
+    }
+    .child2{
+      width: 400px;
+      height: 100px;
+      background-color: orange; 
+    }
+    .child3{
+      width: 400px;
+      height: 100px;
+      background-color: orange; 
+    }
+    .child4{
+      width: 100px;
+      height: 400px;
+      background-color: orange; 
+    }
+  </Style>
+</head>
+<body>
+  <div class="parent">parent
+    <div class="child">child</div>
+  </div>
+  <div class="parent1">parent
+    <div class="child1">child</div>
+  </div>
+  <div class="parent2">parent
+    <div class="child2">child</div>
+  </div>
+  <div class="parent3">parent
+    <div class="child3">child</div>
+  </div>
+</body>
+</html>
