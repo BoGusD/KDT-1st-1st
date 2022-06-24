@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=S, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body { 
+      padding: 40px;
+    }
+
+    .background{
+      width: 100px;
+      height: 100px;
+      background-color: skyblue;
+      transition: 1s;
+    }
+    div.item{
+      width: 100px;
+      height: 100px;
+      background-color: orange;
+      opacity: 0.7;
+      transition: 2s;
+      
+    }
+    div>.item1:active{
+      transform: translateX(200px) rotate(45deg) ;
+    }
+    div>.item2:active{
+      transform: translate(100px, 0) scaleX(2);
+    }
+    div>.item3:active{
+      transform: perspective(300px) rotateY(180deg) ;
+    }
+    div>.item4:active{
+      transform: translateX(20px) skewX(-40deg) ;
+    }
+  </style>
+</head>
+<body>
+  <div class="background">
+  <div class="item item1"></div>
+  </div>
+  <br>
+  <div class="background">
+  <div class="item item2"></div>
+  </div>
+  <br>
+  <div class="background">
+  <div class="item item3"></div>
+  <br>
+  <div class="background">
+  <div class="item item4"></div>
+  </div>
+  <br>
+  </div>
+</body>
+</html>
