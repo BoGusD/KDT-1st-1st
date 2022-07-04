@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오늘 뭐 먹을까?</title>
+  <link rel="shortcut icon" type="image/x-icon"
+    href="https://cdn.pixabay.com/photo/2013/04/01/21/29/food-99072__340.png">
+  <link rel="stylesheet" href="css/CSS.css" />
+  
+</head>
+
+<body>
+  <!-- 맨위 배경화면 -->
+  <div class="topbackground">
+    <h1>오늘 식사를 찾아봅시다.</h1>
+    <div class="title">
+      <h5>오늘 하루도 화이팅!</h5>
+    </div>
+  </div>
+  <div class="context">
+    <div >
+      <ul id="seoul" onclick="display1()">
+        <span class="upper">서울</span>
+        <div id="list1" style="display:none">
+          <li>강남</li>
+          <li>용산</li>
+          <li>잠실</li>
+          <li>천호</li>
+        </div>
+      </ul>
+    </div>
+
+    <div>
+      <ul id="gg" onclick="display2()">
+        <span class="upper">경기도</span>
+        <div id="list2" style="display:none">
+          <li>부천</li>
+          <li>남양주</li>
+          <li>장지</li>
+        </div>
+      </ul>
+    </div>
+
+    <div>
+      <ul id="incheon" onclick="display3()">
+        <span class="upper">인천</span>
+        <div id="list3" style="display:none">
+          <li>부평</li>
+          <li>마라도</li>
+        </div>
+      </ul>
+    </div>
+
+    <div>
+      <ul id="jaeju" onclick="display4()">
+        <span class="upper">제주도</span>
+      <div id="list4" style="display:none">
+        <li>서귀포</li>
+      </div>
+     </ul>
+    </div>
+
+    <div>
+      <ul id="gaewondo" onclick="display5()">
+        <span class="upper">강원도</span>
+        <div id="list5" style="display:none">
+        <li>속초</li>
+        </div>
+      </ul>
+    </div>
+
+    <div>
+      <ul id="busan"  onclick="display6()">
+        <span class="upper">부산</span>
+        <div id="list6" style="display:none">
+        <li>해운대</li>
+        <li>송정</li>
+        <li>남포동</li>
+      </div>
+      </ul>
+    </div>
+  </div>
+
+  <!-- article -->
+  <article>
+    <div id="arrow">
+      <img
+        src="https://cdn-icons.flaticon.com/png/512/608/premium/608258.png?token=exp=1652704747~hmac=0470a88f2dc8ecdd2ec7cb07426cca6f"
+        width="320px" alt="">
+    </div>
+    <div id="circle">
+      <div id="mid">
+        <div id="ele1" id="img1">
+          <img src="https://media.istockphoto.com/photos/chinese-food-blank-background-picture-id545286388?s=612x612"
+            alt="중식">
+        </div>
+        <div id="ele2" id="img2">
+          <img src="https://cdn.pixabay.com/photo/2018/09/14/11/12/food-3676796__340.jpg" alt="양식">
+        </div>
+        <div id="ele3" id="img3">
+          <img src="https://cdn.pixabay.com/photo/2015/05/02/00/57/aluminous-749358__340.jpg" alt="한식">
+        </div>
+        <div id="ele4" id="img4">
+          <img src="https://cdn.pixabay.com/photo/2017/01/11/08/30/market-1971125__340.jpg" alt="분식">
+        </div>
+        <div id="ele5" id="img5">
+          <img src="https://cdn.pixabay.com/photo/2016/08/19/09/30/japan-1604865__340.jpg" alt="일식">
+        </div>
+        <div id="ele6" id="img6">
+          <img
+            src="https://media.istockphoto.com/photos/table-with-various-cookies-tarts-cakes-cupcakes-and-cakepops-picture-id623709028?s=612x612"
+            alt="디저트">
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="btn_start" onclick="start();">시작</button>
+      <button id="btn_stop" onclick="stop();">중지</button>
+      <button id="btn2" onclick="changeColor();">색변경</button>
+      <button onClick="window.location.reload()">다시하기</button>
+    </div>
+  </article>
+  </div>
+  <footer>
+    <p>
+</body>
+</html>
+<script src="script.js" defer></script>
