@@ -99,16 +99,112 @@
 //   return c;
 // }
 
-sayHello();
+// sayHello();
 
 
-function sayHello() {
-  console.log("Say Hello");
-}
+// function sayHello() {
+//   console.log("Say Hello");
+// }
 
-let heyHello = function() {
-  console.log("Hey Hello");
-}
-heyHello();
+// let heyHello = function() {
+//   console.log("Hey Hello");
+// }
+// heyHello();
+
+// // 함수 선언문
+// function sayHello() {
+//   console.log("Say Hello");
+// }
+
+// // 함수 표현식
+// let sayHello = function() {
+//    console.log("Say Hello");
+// }
+// // 화살표 함수
+// let sayHello = () => {
+//   console.log("Say Hello");
+// }
+
+// let square = function(row,column) {
+//   return row*column /2;
+// }
+// console.log(square(2,3));
 
 
+// let r= Math.PI
+// let circle = (a) =>{
+//   return a**2*r;
+// }
+// console.log(circle(3));
+
+// let pita = (a,b) =>{
+//   var c;
+//   c = Math.sqrt(a** 2 + b**2);
+//   return c;
+// }
+// console.log(pita(3, 2));
+
+// let kdt = ["진형", "승환", "지훈", "소민", "영은" , "종익", "다영", "한솔", "세영", "혜영","준우","수지","원","승수","민정","의진","유림","윤비","지현","해성","효석"];
+
+// for (let i=0; i<kdt.length; i++){
+//   console.log(`kdt ${i+1}번째 참여자의 성함은 ${kdt[i]} 입니다.`);
+// }
+
+// const superMan = {
+//   name: "clark",
+//   age: 33,
+//   height: 187,
+//   weight: 77
+// }
+// console.log(superMan.name);
+// console.log(superMan ["age"]);
+// console.log(superMan.condition);
+
+// superMan.haircolor = "blone";
+// superMan["job"] = "junerlist";
+
+// console.log(superMan);
+
+// delete superMan.weight;
+
+// console.log(superMan);
+
+// const pororo = {
+//   name: "뽀로로",
+//   age : 7,
+// }
+// console.log(pororo.name);
+// console.log(pororo ["age"]);
+
+// pororo.gender = "monster";
+// pororo.height = 60;
+// console.log(pororo);
+
+// delete pororo.gender;
+
+// console.log(pororo);
+// console.log("name" in pororo);
+// console.log("height" in pororo);
+
+// for(let key in pororo){
+//   console.log(pororo[key]);
+// }
+
+// const superMan = {
+//   name: "clark",
+//   age: 33,
+//   height: 187,
+//   weight: 77,
+//   fly: function() {
+//     console.log("날아갑니다")
+//   }
+// }
+// superMan.fly();
+
+// // console.log("name" in superMan);
+// // console.log("job" in superMan);
+
+// for(let key in superMan){
+//   // console.log(key);
+//   console.log(superMan[key]);
+// }
