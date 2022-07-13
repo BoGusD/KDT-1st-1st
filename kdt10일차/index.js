@@ -54,12 +54,29 @@
 
 // console.log(a===b);
 
-let name = "뽀로로";
-let age = 16;
-let isAudlt = age >19;
+// let name = "뽀로로";
+// let age = 16;
+// let isAudlt = age >19;
 
-if(isAudlt){
-  console.log("통과");
-} else{
-  console.log("돌아가");
+// if(isAudlt){
+//   console.log("통과");
+// } else{
+//   console.log("돌아가");
+// }
+
+// let isAudlt = false;
+// let VIP = false;
+// let isDrunken = true;
+// let money= false;
+
+// if((((isAudlt || VIP) && !isDrunken))|| money){
+//   console.log("통과");
+// } else{
+//   console.log("돌아가");
+// }
+
+let myName = "이효석";
+
+function sayHello() {
+  console.log('Hello');
 }
