@@ -75,8 +75,40 @@
 //   console.log("돌아가");
 // }
 
-let myName = "이효석";
+
+
+
+// function square(row, column) {
+//    return  (row*column)/2;
+// }
+// console.log(square(2,3));
+// let a = Math.PI;
+// function circle(width, a ){
+//   return (width**2) *a;
+// }
+// console.log(circle(3,3.14))
+// function pita(a,b){
+//   var c;
+//   c= Math.sqrt(a** 2 + b**2);
+//   return c;
+// }
+
+// let pita = function (A,b){
+//   var c;
+//   c = Math.sqrt(a** 2 + b**2);
+//   return c;
+// }
+
+sayHello();
+
 
 function sayHello() {
-  console.log('Hello');
+  console.log("Say Hello");
 }
+
+let heyHello = function() {
+  console.log("Hey Hello");
+}
+heyHello();
+
+
