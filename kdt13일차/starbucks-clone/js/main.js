@@ -71,8 +71,18 @@ promotionToggleBtn.addEventListener("click", function(){
   }
 })
 // SCROLL ANIMATION
-let scrollYPos;
+const perAnimate = document.querySelector(".peru");
 window.addEventListener("scroll", function(){
-  scrollYPos=window.scrollY;
+ let scrollYPos=window.scrollY;
   console.log(scrollYPos);
+
+  if(scrollYPos > 430){
+    //다음과 같은 방법으론 변수를 선언하지 않아도 됨 this가 window를 불러옴   this.document
+    perAnimate.classList.add(".animate");
+  }
 })
+const visualAnimate = document.querySelector('.visual .inner');
+// window.onload(function(){})
+window.onload = () => {
+  visualAnimate.classList.add("animate");
+}
