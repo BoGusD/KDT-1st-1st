@@ -273,7 +273,8 @@
 // // //   id: 1,
 // // //   email: "xenosign@naver.com", //{}<< 빈 배열
 // // //   };
-// // //   const assignedObj = Object.assign(userName, userEmail);    // {} << 빈 객체 : 객체를 추가하게 되면  const assignedObj = Object.assign({},userName, userEmail); 불변성에 의해 false 출력됨
+// // //   const assignedObj = Object.assign(userName, userEmail);    
+// {} << 빈 객체 : 객체를 추가하게 되면  const assignedObj = Object.assign({},userName, userEmail); 불변성에 의해 false 출력됨
 // // //   console.log(assignedObj);
 // // //   console.log(userName);
 // // //   console.log(assignedObj === userName);
